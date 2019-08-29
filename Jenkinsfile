@@ -10,7 +10,7 @@ node (label: 'master') {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-        app = docker.build("icpaws/k8scicddemob")
+        app = docker.build("icpaws/k8scicddemo")
     }
 
     stage('Test image') {
